@@ -48,13 +48,14 @@ The false positives can be found [here](https://github.com/MR-Scout/MR-Scout.git
 **RQ2: Quality.** 
 MR-Scout synthesizes codified MRs from MTCs and applies filtering to remove low-quality MRs. To evaluate the effectiveness of this process, we prepared a set of new test inputs for each codified MR. Experimental results show that 97.18% of MR-Scout synthesized MRs are of high quality and applicability to new inputs for automated test case generation, demonstrating the practical applicability of MR-Scout.
 
+The detailed experimental data can be found [here](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/experimentalData/RQ2-quality.xlsx). 
 
 **RQ3: Usefulness.** 
 To demonstrate the usefulness of synthesized MRs in enhancing test adequacy, we compared test suites constructed from MR-Scout codified MRs against developer-written and EvoSuite-generated test suites. We employ four metrics: line coverage, mutation score, percentage of covered mutants, and test strength.
 
 We successfully ran PIT to generate 2,170 mutants for 51 target classes from 75 reusable codified MRs (totally 4,701 lines of code in target classes).
 
-The detailed experimental subjects can be found [here](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/experimentalData/RQ3-usefulnessData.xlsx). 
+The detailed experimental data can be found [here](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/experimentalData/RQ3-usefulnessData.xlsx). 
 
 
 **RQ4: Comprehensibility.** 
