@@ -24,7 +24,7 @@ Let us take the [dapr/java-sdk](https://github.com/dapr/java-sdk) project as an 
 
 2. Run MR-Scout: MTC Discovery
     
-    Navigate to [dapr/java-sdk](https://github.com/dapr/java-sdk) directory and execute the MTC Identifier using the following commands:
+    Navigate to [dapr/java-sdk](https://github.com/dapr/java-sdk) directory and execute the MTC Discovery using the following commands:
 
     ```cmd
    $ cd $project_dir$; java -cp MR-Scout.jar com.mr.extractor.Main $project_name$ $project_dir$
@@ -35,7 +35,7 @@ Let us take the [dapr/java-sdk](https://github.com/dapr/java-sdk) project as an 
    ```
 
    Output:
-   * identified MTC will be stored in JSON files under `$project_dir$AutoMR/MTidentifier/`.
+   * discovered MTC will be stored in JSON files under `$project_dir$AutoMR/MTidentifier/`.
 
    Example: 
    in the file `$project_dir$AutoMR/MTidentifier/io.dapr.utils.DurationUtilsTest.convertTimeBothWays__split__0.json`
