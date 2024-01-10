@@ -94,7 +94,7 @@ We set the following flags while retaining the default values for other flags wh
 The enhanced test coverage by codified-MR-based test suites results from the effective integration of high-quality test oracles (i.e., codified MRs) with a set of diverse test inputs. In developer-written
 test suites, although test oracles are well-crafted and invaluable, each oracle typically applies to one test input. EvoSuite-generated test suites have a large number of test inputs but fall short in the quality of test oracles.
 
-The examples and detailed analysis can be found [here](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/experimentalData/Examples.docx).
+The examples and detailed analysis can be found [here](experimentalData/Example (C VS D).docx).
 
 
 
