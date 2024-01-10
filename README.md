@@ -4,7 +4,7 @@ title: MR-SCOUT: Automated Synthesis of Metamorphic Relations from Existing Test
 
 ## Welcome to MR-Scout's Site！
 ----
-The paper "[MR-SCOUT: Automated Synthesis of Metamorphic Relations from Existing Test Cases](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/TOSEM-2023-0286.pdf)" is submitted to TOSEM. This page offers access to MR-Scout and experimental data. Additionally, it provides the supplementary materials, including the analysis of MTC-rich project domains and Evosuite configuration.
+The paper "[MR-SCOUT: Automated Synthesis of Metamorphic Relations from Existing Test Cases](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/TOSEM-2023-0286.pdf)" is submitted to TOSEM. This page offers access to MR-Scout and experimental data. Additionally, it provides the supplementary materials, including (i) the analysis of MTC-rich project domains, (ii) Evosuite configuration, and (iii) examples of codified-MR-based tests ($C$) which have higher test coverage.
 
 
 **Table of Contents**
@@ -18,6 +18,7 @@ The paper "[MR-SCOUT: Automated Synthesis of Metamorphic Relations from Existing
 - [Supplementary Materials](#supplementary-materials)
 	+ Domain analysis 
 	+ Evosuite Configuration
+	+ Examples of $C$ with higher test coverage
 
 
 ## MR-Scout
@@ -89,7 +90,11 @@ We set the following flags while retaining the default values for other flags wh
 -Dassertions=false
 ```
 
+**Examples of $C$ with higher test coverage.** 
+The enhanced test coverage by codified-MR-based test suites results from the effective integration of high-quality test oracles (i.e., codified MRs) with a set of diverse test inputs. In developer-written
+test suites, although test oracles are well-crafted and invaluable, each oracle typically applies to one test input. EvoSuite-generated test suites have a large number of test inputs but fall short in the quality of test oracles.
 
+The examples and detailed analysis can be found [here](https://github.com/MR-Scout/MR-Scout.github.io/blob/main/experimentalData/Examples.docx).
 
 
 
